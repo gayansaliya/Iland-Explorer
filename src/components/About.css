@@ -117,7 +117,7 @@
 
 .mission-image {
     flex: 1;
-    background: url("C:/Users/Achintha/Desktop/group-project 06/Iland-Explorer/public/images/about2.jpeg");
+    background: url("/images/about2.jpeg");
     min-width: 300px;
     height: 400px;
     background-color: #eee; /* Placeholder background */
