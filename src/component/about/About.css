@@ -1,0 +1,251 @@
+
+.navbar1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 80px;
+    background-color: #004d40;
+    color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo1 {
+    color: #f7c52f;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin-left: 25px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #ffd700;
+}
+/* --- End Reused Navigation Styles --- */
+
+
+/* --- About Hero Section --- */
+.about-hero {
+    width: 100;
+    background: url(#);/* Vibrant accent color */
+    color: white;
+    box-sizing: border-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px 50px ;
+    text-align: center;
+}
+
+.about-hero h1 {
+    font-size: 3rem;
+    margin-bottom: 5px;
+    color: #004d40;
+    font-size: 3rem;
+}
+
+.about-hero p {
+    font-size: 1.2rem;
+    opacity: 0.9;
+    color: #004d40;
+    font-size: 1.5rem;
+}
+
+/* --- Mission Section --- */
+.mission-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 50px;
+    background-color: #f2f3f6;
+    gap: 40px;
+}
+
+.mission-content {
+    flex: 1;
+    max-width: 600px;
+}
+
+.mission-section h2 {
+    color: #004d40;
+    font-size: 2rem;
+    border-bottom: 2px solid #ff5722;
+    padding-bottom: 5px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.mission-section p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: black;
+    text-align: justify;
+    font-size: 1.2rem
+}
+
+.mission-section ul {
+    list-style-type: none;
+    padding-left: 0;
+    color: black;
+    text-align: justify;
+    font-size: 1.2rem
+}
+
+.mission-section ul li {
+    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="%23004d40"><path d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z"/></svg>') no-repeat left center;
+    background-size: 16px;
+    padding-left: 25px;
+    line-height: 1.8;
+}
+
+.mission-image {
+    flex: 1;
+    background: url(#);
+    min-width: 300px;
+    height: 400px;
+    background-color: #eee; /* Placeholder background */
+    border-radius: 8px;
+    background-size: cover;
+    background-position: center;
+    /* You would typically set the image here, or use a component */
+    
+}
+
+.history-section {
+  background-color: #f0f4f8;
+  padding: 10px 50px;
+  text-align: center;
+}
+
+.history-section h2 {
+  color: #004d40;
+  font-size: 2rem;
+  margin-bottom: 25px;
+  border-bottom: 2px solid #ff5722;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.history-section p {
+  max-width: 800px;
+  margin: 15px auto;
+  font-size: 1.25rem;
+  line-height: 1.7;
+  color: #555;
+  text-align: justify;
+}
+
+
+/* --- Team Section --- */
+.team-section {
+    padding: 60px 50px;
+    text-align: center;
+    background-color:  #ebf6f4;
+}
+
+.team-section h2 {
+    color: #004d40;
+    font-size: 2.2rem;
+    margin-bottom: 40px;
+    border-bottom: 2px solid #ff5722;
+    padding-bottom: 5px;
+    margin-bottom: 25px;
+    
+}
+
+.team-grid {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.team-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 280px;
+    transition: transform 0.3s;
+}
+
+.team-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.member-photo {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: 0 auto 15px auto;
+    background-color: #ccc;
+    background-size: cover;
+    background-position: center;
+    border: 3px solid #ff5722;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+    color: #666;
+    font-style: italic;
+}
+
+.member-photo1 {
+    background: url(#);
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: 0 auto 15px auto;
+    background-color: #ccc;
+    background-size: cover;
+    background-position: center;
+    border: 3px solid #ff5722;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+    color: #666;
+    font-style: italic;
+}
+.team-card h3 {
+    color: #004d40;
+    margin-bottom: 5px;
+    font-size: 1.4rem;
+}
+
+.member-title {
+    color: #ff5722;
+    font-size: 0.9rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.member-bio {
+    font-size: 0.9rem;
+    color: #555;
+    line-height: 1.5;
+}
+
+/* --- Footer --- */
+.footer {
+    padding: 20px;
+    background-color: #222;
+    color: #aaa;
+    text-align: center;
+    font-size: 0.9rem;
+}
