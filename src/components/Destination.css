@@ -1,0 +1,197 @@
+/* src/components/Destination.css */
+
+/* Reusing Navigation Styles (Better to put this in a global/shared CSS) */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background-color: #004d40;
+    color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    color: #f7c52f;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin-left: 25px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #ffd700;
+}
+/* --- End Reused Navigation Styles --- */
+
+
+/* --- Destination Hero Section --- */
+.dest-hero-section {
+   width: 100;  
+     background: url("images/47.jpg");/* Vibrant accent color */
+    color:#f4f4f4;
+    box-sizing: border-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px 50px ;
+    text-align: center;
+    /* You can add a background image here too if desired */
+}
+    
+    
+
+.dest-hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.dest-hero-content p {
+    font-size: 1.2rem;
+    opacity: 0.8;
+}
+
+/* --- Introduction Section --- */
+.dest-intro {
+    padding: 50px 50px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.dest-intro h2 {
+    color: #004d40;
+    margin-bottom: 15px;
+}
+
+.dest-intro p {
+    max-width: 900px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+/* --- Destination Cards Layout --- */
+.destination-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 50px 50px;
+    background-color: #f4f4f4;
+}
+
+.destination-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 300px; /* Fixed width for cards */
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.destination-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.card-image {
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    display: flex; /* Centers the placeholder text */
+    justify-content: center;
+    align-items: center;
+    background-color: #ccc; /* Fallback color */
+}
+
+.image-placeholder {
+    color: #666;
+    font-style: italic;
+    font-size: 0.9rem;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.card-content h3 {
+    color: #ff5722;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.card-content p {
+    font-size: 0.95rem;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.card-link {
+    color: #004d40;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    text-align: right;
+    transition: color 0.3s;
+}
+
+.card-link:hover {
+    color: #ff5722;
+}
+
+
+/* --- Package CTA Section (Reused Styling) --- */
+.package-cta {
+    padding: 50px;
+    background-color: #004d40;
+    color: white;
+    text-align: center;
+}
+
+.package-cta h2 {
+    margin-top: 0;
+    font-size: 2.2rem;
+}
+
+.package-cta p {
+    margin-bottom: 30px;
+}
+
+/* Reusing CTA button style from Home.css */
+.package-cta .cta-button {
+    display: inline-block;
+    background-color: #ff5722; 
+    color: white;
+    padding: 12px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.package-cta .cta-button:hover {
+    background-color: #e64a19;
+}
+
+/* --- Footer --- */
+.footer {
+    padding: 20px;
+    background-color: #222;
+    color: #aaa;
+    text-align: center;
+    font-size: 0.9rem;
+}
