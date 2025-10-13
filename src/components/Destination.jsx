@@ -8,19 +8,19 @@ const destinationRegions = [
   {
     name: "Ancient Cities & Heritage",
     description: "Explore UNESCO World Heritage sites like Sigiriya, Anuradhapura, and Polonnaruwa, stepping back into Sri Lanka's rich past.",
-   image: "images/ancient-cities.jpg",// Replace with your image path
+   image: "/images/ancient-cities.jpg",// Replace with your image path
     link: "/destination/heritage",
   },
   {
     name: "Hill Country & Tea Plantations",
     description: "Discover the misty mountains, lush tea estates, and picturesque train rides between Ella and Kandy, offering cool climates and stunning views.",
-    image: "images/hill-country.jpg", // Replace with your image path
+    image: "/images/hill-country.jpg", // Replace with your image path
     link: "/destination/hills",
   },
   {
     name: "Pristine Beaches & Coastline",
     description: "Relax on the golden sands of Mirissa, Unawatuna, or Trincomalee. Perfect for surfing, whale watching, and sunbathing.",
-    image: "images/beaches.jpg", // Replace with your image path
+    image: "/images/beaches.jpg", // Replace with your image path
     link: "/destination/beaches",
   },
 ];
