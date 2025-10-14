@@ -4,8 +4,9 @@ import Home from "./Components/Home";
 import Destination from "./components/Destination";
 // import Package from "./Components/Package";
 import About from "./components/About";
+import Gallery from "./components/Gallery";
 // import Contact from "./Components/Contact";
-// import Gallery from "./Components/Gallery";
+
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
         {/* <Route path="/package" element={<Package />} /> */}
         <Route path="/about" element={<About />} />
         {/* <Route path="/contact" element={<Contact />} /> */}
-        {/* <Route path="/gallery" element={<Gallery />} /> */}
+        <Route path="/gallery" element={<Gallery />} />
       </Routes>
     </Router>
   );
