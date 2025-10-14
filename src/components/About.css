@@ -1,6 +1,4 @@
-/* src/components/About.css */
 
-/* --- Reused Navigation Styles --- */
 .navbar1 {
     display: flex;
     justify-content: space-between;
@@ -45,7 +43,7 @@
 .about-hero {
     width: 100;
     background: url("/images/about1.2025");/* Vibrant accent color */
-    color: white;
+    color: rgb(150, 245, 164);
     box-sizing: border-box;
     background-size: cover;
     background-repeat: no-repeat;

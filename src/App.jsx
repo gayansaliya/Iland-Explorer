@@ -4,7 +4,7 @@ import Home from "./Components/Home";
 import Destination from "./components/Destination";
 // import Package from "./Components/Package";
 import About from "./components/About";
-// import Contact from "./Components/Contact";
+import Contact from "./components/Contact";
 // import Gallery from "./Components/Gallery";
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
         <Route path="/destination" element={<Destination />} />
         {/* <Route path="/package" element={<Package />} /> */}
         <Route path="/about" element={<About />} />
-        {/* <Route path="/contact" element={<Contact />} /> */}
+        { <Route path="/contact" element={<Contact />} /> }
         {/* <Route path="/gallery" element={<Gallery />} /> */}
       </Routes>
     </Router>
