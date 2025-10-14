@@ -67,17 +67,17 @@ export default function Contact() {
             <p>info@iland.travel</p>
           </div>
           <div className="contact-details-card">
-            <h3>Chairman’s Office</h3>
+            <h3>Chairman's Office</h3>
             <p>+94 113426600</p>
             <p>chairman@iland.travel</p>
           </div>
           <div className="contact-details-card">
-            <h3>Director General’s Office</h3>
+            <h3>Director General's Office</h3>
             <p>+94 112426750</p>
             <p>sg@iland.travel</p>
           </div>
           <div className="contact-details-card">
-            <h3>Managing Director’s Office</h3>
+            <h3>Managing Director's Office</h3>
             <p>+94 112428300</p>
             <p>md@iland.travel</p>
           </div>
