@@ -1,38 +1,31 @@
 import "./Contact.css";
-
-import { Link } from 'react-router-dom';
-
+import { Link } from "react-router-dom";
 
 const Navbar = () => (
-    <header className="navbar">
-        <div className="logo">Island Explorer</div>
-        <nav>
-          <ul className="nav-links">
-            <li><Link to="/">Home</Link></li>
-            <li><Link to="/destination">Destinations</Link></li>
-            <li><Link to="/package">Packages</Link></li>
-            <li><Link to="/gallery">Gallery</Link></li>
-            <li><Link to="/about">About Us</Link></li>
-            <li><Link to="/contact">Contact</Link></li>
-          </ul>
-        </nav>
-    </header>
+  <header className="navbar">
+    <div className="logo">Island Explorer</div>
+    <nav>
+      <ul className="nav-links">
+        <li><Link to="/">Home</Link></li>
+        <li><Link to="/destination">Destinations</Link></li>
+        <li><Link to="/package">Packages</Link></li>
+        <li><Link to="/gallery">Gallery</Link></li>
+        <li><Link to="/about">About Us</Link></li>
+        <li><Link to="/contact">Contact</Link></li>
+      </ul>
+    </nav>
+  </header>
 );
 
 export default function Contact() {
-
   return (
-    // Use a React Fragment to return multiple elements (Navbar and main div)
     <>
-      <Navbar /> {/* Render the Navbar */}
+      <Navbar />
 
       <div className="contact-page">
-
-        {/* The existing contact page content follows */}
-
         <header className="contact-hero">
-          <h1 className="">Contact Us</h1>
-          <p className="">Please submit your Complaints and Suggestions</p>
+          <h1>Contact Us</h1>
+          <p>Please submit your Complaints and Suggestions</p>
         </header>
 
         <section className="contact-hero-emarjancy">
@@ -53,6 +46,29 @@ export default function Contact() {
             allowFullScreen=""
             loading="lazy"
           ></iframe>
+        </section>
+
+        {}
+        <section className="contact-form-section">
+          <h2>Send Us a Message</h2>
+          <form className="contact-form">
+            <div className="form-group">
+              <label htmlFor="name">Your Name</label>
+              <input type="text" id="name" name="name" placeholder="Enter your name" required />
+            </div>
+
+            <div className="form-group">
+              <label htmlFor="email">Your Email</label>
+              <input type="email" id="email" name="email" placeholder="Enter your email" required />
+            </div>
+
+            <div className="form-group">
+              <label htmlFor="message">Your Message</label>
+              <textarea id="message" name="message" rows="4" placeholder="Type your message here..." required></textarea>
+            </div>
+
+            <button type="submit" className="submit-btn">Send Message</button>
+          </form>
         </section>
 
         <section className="contact-content-grid">

@@ -84,7 +84,7 @@ const Gallery = () => {
       </section>
 
       <footer className="footer">
-        <p>&copy; 2025 Sri Lanka Travel. All rights reserved.</p>
+        <p>&copy; 2025 Island Explorer. All rights reserved.</p>
       </footer>
     </div>
   );
