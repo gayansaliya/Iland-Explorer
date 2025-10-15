@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Your Tour | ExploreLanka</title>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: #f0f6f8;
+      color: #2b4d66;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background: #2b4d66;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .booking-container {
+      max-width: 600px;
+      background: #fff;
+      margin: 50px auto;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    input, select, textarea {
+      padding: 10px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+      font-size: 15px;
+    }
+
+    button {
+      background: #2b4d66;
+      color: white;
+      border: none;
+      padding: 12px;
+      border-radius: 25px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    button:hover {
+      background: #1d3447;
+    }
+
+    .back-link {
+      display: block;
+      text-align: center;
+      margin-top: 20px;
+      text-decoration: none;
+      color: #2b4d66;
+      font-weight: bold;
+    }
+
+    .back-link:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <header>Book Your Tour</header>
+
+  <div class="booking-container">
+    <h2>Booking Form</h2>
+    <form action="#" method="post">
+      <label for="name">Full Name</label>
+      <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+
+      <label for="email">Email Address</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+      <label for="destination">Select Destination</label>
+      <select id="destination" name="destination" required>
+        <option value="">-- Select a Package --</option>
+        <option>Ella Adventure</option>
+        <option>Sigiriya Heritage Tour</option>
+        <option>Nuwara Eliya Hills</option>
+        <option>Galle Coastal Escape</option>
+        <option>Kandy Cultural Journey</option>
+        <option>Bentota Beach Holiday</option>
+        <option>Anuradhapura Ancient Tour</option>
+        <option>Jaffna Northern Explorer</option>
+        <option>Trincomalee Ocean Escape</option>
+        <option>Colombo City Lights</option>
+        <option>Arugam Bay Surf Trip</option>
+        <option>Polonnaruwa Heritage Trail</option>
+      </select>
+
+      <label for="date">Select Travel Date</label>
+      <input type="date" id="date" name="date" required>
+
+      <label for="message">Additional Message</label>
+      <textarea id="message" name="message" rows="4" placeholder="Any special requests?"></textarea>
+
+      <button type="submit">Submit Booking</button>
+    </form>
+
+    <a href="packages.html" class="back-link">← Back to Packages</a>
+  </div>
+  <script>
+  // Handle form submission
+  const form = document.querySelector("form");
+
+  form.addEventListener("submit", function(event) {
+    event.preventDefault(); // stop page reload
+
+    // Option 1: simple alert message
+    alert("✅ Booking Successful! Thank you for your reservation.");
+
+    // Option 2 (optional): clear the form after submit
+    form.reset();
+  });
+</script>
+
+</body>
+</html>
