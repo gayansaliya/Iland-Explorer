@@ -2,10 +2,10 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./Components/Home";
 import Destination from "./components/Destination";
-// import Package from "./Components/Package";
+import Package from "./Components/Package";
 import About from "./components/About";
 import Gallery from "./components/Gallery";
-// import Contact from "./Components/Contact";
+ import Contact from "./Components/Contact";
 
 
 function App() {
