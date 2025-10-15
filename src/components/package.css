@@ -1,0 +1,210 @@
+/* src/components/Package.css */
+
+/* --- Reused Navigation Styles --- */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background-color: #004d40;
+    color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    color: #f7c52f;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin-left: 25px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #ffd700;
+}
+/* --- End Reused Navigation Styles --- */
+
+
+/* --- Package Hero Section --- */
+.package-hero {
+    background-color: #00796b; 
+    color: white;
+    padding: 60px 50px;
+    text-align: center;
+}
+
+.package-hero h1 {
+    font-size: 2.8rem;
+    margin-bottom: 5px;
+}
+.package-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px 8px 0 0;
+  margin-bottom: 10px;
+}
+
+
+.package-hero p {
+    font-size: 1.1rem;
+    opacity: 0.9;
+}
+
+/* --- Package List & Grid --- */
+.package-list {
+    padding: 60px 50px;
+    text-align: center;
+    background-color: #f8f8f8;
+}
+
+.package-list h2 {
+    color: #004d40;
+    margin-bottom: 40px;
+}
+
+.package-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.package-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 320px;
+    padding: 25px;
+    text-align: left;
+    position: relative;
+    transition: box-shadow 0.3s;
+}
+
+.package-card:hover {
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+.package-type {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #ff5722; 
+    color: white;
+    padding: 5px 15px;
+    border-top-right-radius: 10px;
+    font-size: 0.85rem;
+    font-weight: bold;
+}
+
+.package-type.luxury { background-color: #ffd700; color: #333; }
+.package-type.adventure-nature { background-color: #00796b; }
+.package-type.culture-wildlife { background-color: #ff5722; }
+
+.package-card h3 {
+    font-size: 1.5rem;
+    color: #004d40;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.package-card .duration {
+    color: #777;
+    font-size: 0.9rem;
+    margin-bottom: 15px;
+    display: block;
+}
+
+.package-card .description {
+    font-size: 0.95rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    height: 75px; /* Fixed height for consistent look */
+    overflow: hidden;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #eee;
+    padding-top: 15px;
+}
+
+.card-footer .price {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #ff5722;
+}
+
+.book-button {
+    background-color: #ff5722;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.book-button:hover {
+    background-color: #e64a19;
+}
+
+/* --- Custom Package CTA Section --- */
+.custom-package-cta {
+    padding: 50px;
+    background-color: #e0f2f1; /* Light Teal Background */
+    text-align: center;
+    color: #004d40;
+}
+
+.custom-package-cta h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.custom-package-cta p {
+    margin-bottom: 25px;
+}
+
+.cta-button-secondary {
+    display: inline-block;
+    background-color: #004d40; /* Dark Teal */
+    color: white;
+    padding: 12px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.cta-button-secondary:hover {
+    background-color: #00332e;
+}
+
+
+/* --- Footer --- */
+.footer {
+    padding: 20px;
+    background-color: #222;
+    color: #aaa;
+    text-align: center;
+    font-size: 0.9rem;
+}
